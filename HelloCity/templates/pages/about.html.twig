@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+	<title>
+		{% block title %}about
+		{% endblock %}
+	</title>
+
+	<img src="{{ asset('image/hero2.jpg') }}" alt="imgge" class="w-1/5  ">
+	<p>build by
+		<span class="text-pink-500">&hearts;</span>
+		TIKO TECHNOLOGI
+	</p>
+	<p class="my-4">
+		<a class=" border-4 border-green-800 border-opacity-100 rounded-lg" href="{{ path('app_home') }}">
+			<span class="text-red-500">&hearts;</span>
+			home page
+			<span class="text-red-500">&hearts;</span>
+		</a>
+	</p>
+
+
+</p>{% endblock %}
