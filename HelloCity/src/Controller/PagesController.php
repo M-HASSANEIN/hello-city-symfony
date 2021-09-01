@@ -21,7 +21,7 @@ class PagesController extends AbstractController
     }
 
     /**
-     * @Route("/about", name="app_about")
+     * @Route("about", name="app_about")
      */
     public function about(): Response
     {
